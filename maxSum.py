@@ -30,15 +30,17 @@ print maxset([ 0, 0, -1, 0 ])
 
 
 def maxSubArray(A):
-    max = 0
+    max = float("-inf")
     curMax = 0
 
     for index,i in enumerate(A):
         curMax += i
         if curMax > max:
             max = curMax
-        elif curMax < 0:
+        if curMax < 0:
             curMax = 0
 
     return max
 
+
+print maxSubArray([-2,1])
