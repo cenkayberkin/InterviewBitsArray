@@ -1,19 +1,31 @@
 __author__ = 'cenk'
 
+
 def maxset(A):
-    max = 0
+    max = float("-inf")
+    maxS = float("-inf")
+    maxE = 0
+
     curMax = 0
+    curS = 0
 
     for index,i in enumerate(A):
-        curMax += i
-        if curMax > max:
-            max = curMax
-        elif curMax < 0:
+        if i >= 0:
+            curMax += i
+            if curMax > max:
+                max = curMax
+                maxS = curS
+                maxE = index
+        else:
             curMax = 0
+            curS = index + 1
 
-    return max
+    if maxS == float("-inf"):
+        return []
+    else:
+        return A[maxS : maxE + 1]
 
-print maxset([5,1,-7,8,-10,1,2,3])
+print maxset([ 0, 0, -1, 0 ])
 
 
 
