@@ -31,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maxSum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maxSum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maxSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5533808">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Zeroes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Zeroes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26334518">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -59,6 +69,7 @@
         <option value="$PROJECT_DIR$/RadixSort.py" />
         <option value="$PROJECT_DIR$/LargestNum.py" />
         <option value="$PROJECT_DIR$/maxSum.py" />
+        <option value="$PROJECT_DIR$/Zeroes.py" />
       </list>
     </option>
   </component>
@@ -124,24 +135,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Python.maxSum">
-    <configuration default="false" name="ArrayOps1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InterviewBitsArray" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ArrayOps1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Zeroes">
     <configuration default="false" name="p1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,6 +200,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="InterviewBitsArray" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LargestNum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Zeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InterviewBitsArray" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zeroes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -333,19 +344,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ArrayOps1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.p1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.maxSum" />
-      <item index="3" class="java.lang.String" itemvalue="Python.RadixSort" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LargestNum" />
+      <item index="0" class="java.lang.String" itemvalue="Python.p1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.maxSum" />
+      <item index="2" class="java.lang.String" itemvalue="Python.RadixSort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LargestNum" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Zeroes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.maxSum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LargestNum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.RadixSort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.p1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ArrayOps1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Zeroes" />
+        <item index="1" class="java.lang.String" itemvalue="Python.maxSum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LargestNum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.RadixSort" />
+        <item index="4" class="java.lang.String" itemvalue="Python.p1" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +384,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1536273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40463215" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19618529" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19618529" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -406,7 +417,7 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -556,8 +567,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maxSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5533808">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26334518">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding />
         </state>
       </provider>
