@@ -7,9 +7,9 @@ class Interval:
 
 def insert(intervals, newInterval):
     intervals.append(newInterval)
-    return self.mergeIntervals(intervals)
+    return mergeIntervals(intervals)
 
-def mergeIntervals(self,intervals):
+def mergeIntervals(intervals):
 
     if len(intervals) == 0:
         return []
