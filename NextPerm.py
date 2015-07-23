@@ -1,5 +1,8 @@
 __author__ = 'cenk'
 
+
+
+
 def nextPerm(nums):
     pivot = -1
     for i in range(len(nums) -1):
@@ -20,7 +23,6 @@ def nextPerm(nums):
     for i in range(pivot + 1,(len(nums)+pivot+1)/2):
             nums[i], nums[len(nums) + pivot - i]=nums[len(nums) + pivot - i],nums[i]
 
-
-a = [3,2,1]
+a = [1]
 nextPerm(a)
 print a
