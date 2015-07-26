@@ -24,6 +24,11 @@ def Count(nums,item):
 
     return end - start  +1
 
+def searchRange(A, B):
+    sIndex = countEl(A,B,True)
+    eIndex = countEl(A,B,False)
+    return [sIndex,eIndex]
+
 def countEl(nums,item,firtOccurance):
     start = 0
     end = len(nums) -1
@@ -43,4 +48,5 @@ def countEl(nums,item,firtOccurance):
             start = mid +1
     return result
 
-print Count([1,2,3,4,4,4,4,4,5,6,8,10],12)
+print countEl([5, 7, 7, 8, 8, 10],11,True)
+# print Count([1,2,3,4,4,4,4,4,5,6,8,10],12)
