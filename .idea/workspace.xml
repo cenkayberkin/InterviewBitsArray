@@ -21,21 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ipAddress.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ipAddress.py">
+      <file leaf-file-name="lengthOfWord.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lengthOfWord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="versionNumbers.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/versionNumbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36734694">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.5009276">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -85,6 +75,7 @@
         <option value="$PROJECT_DIR$/atoi.py" />
         <option value="$PROJECT_DIR$/ipAddress.py" />
         <option value="$PROJECT_DIR$/versionNumbers.py" />
+        <option value="$PROJECT_DIR$/lengthOfWord.py" />
       </list>
     </option>
   </component>
@@ -150,24 +141,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Python.versionNumbers">
-    <configuration default="false" name="LCP" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InterviewBitsArray" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LCP.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.lengthOfWord">
     <configuration default="false" name="coundAndSay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,6 +206,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="InterviewBitsArray" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versionNumbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="lengthOfWord" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InterviewBitsArray" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lengthOfWord.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -359,19 +350,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LCP" />
-      <item index="1" class="java.lang.String" itemvalue="Python.coundAndSay" />
-      <item index="2" class="java.lang.String" itemvalue="Python.atoi" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ipAddress" />
-      <item index="4" class="java.lang.String" itemvalue="Python.versionNumbers" />
+      <item index="0" class="java.lang.String" itemvalue="Python.coundAndSay" />
+      <item index="1" class="java.lang.String" itemvalue="Python.atoi" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ipAddress" />
+      <item index="3" class="java.lang.String" itemvalue="Python.versionNumbers" />
+      <item index="4" class="java.lang.String" itemvalue="Python.lengthOfWord" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.versionNumbers" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ipAddress" />
-        <item index="2" class="java.lang.String" itemvalue="Python.atoi" />
-        <item index="3" class="java.lang.String" itemvalue="Python.coundAndSay" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LCP" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lengthOfWord" />
+        <item index="1" class="java.lang.String" itemvalue="Python.versionNumbers" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ipAddress" />
+        <item index="3" class="java.lang.String" itemvalue="Python.atoi" />
+        <item index="4" class="java.lang.String" itemvalue="Python.coundAndSay" />
       </list>
     </recent_temporary>
   </component>
@@ -437,13 +428,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Zeroes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pascal1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -784,18 +768,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/versionNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2671614">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ipAddress.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6011132">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/versionNumbers.py">
+    <entry file="file://$PROJECT_DIR$/lengthOfWord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36734694">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.5009276">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding />
         </state>
       </provider>
