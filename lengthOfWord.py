@@ -1,6 +1,5 @@
 __author__ = 'cenk'
 
-
 def lengthLastWord(text):
     if len(text) == 0:
         return 0
@@ -13,4 +12,4 @@ def lengthLastWord(text):
             break
     return len(word)
 
-print lengthLastWord("benim adim 2  sds cenkss 2  ")
+# print lengthLastWord("benim adim 2  sds cenkss 2  ")
