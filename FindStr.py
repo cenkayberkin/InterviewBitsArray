@@ -24,6 +24,6 @@ def findNeedle(haystack, needle):
     return -1
 
 
-h = "ABRA"
+h = "ABABRA"
 n = "ABRA"
 print findNeedle(h,n)
