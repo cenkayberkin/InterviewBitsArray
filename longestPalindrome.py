@@ -2,6 +2,7 @@ __author__ = 'cenk'
 
 def longestPalindrome(s):
     n = len(s)
+
     if n == 0:
         return ""
 
@@ -20,7 +21,6 @@ def longestPalindrome(s):
             maxst = i
             maxlen = 2
 
-
     for length in range(3,n + 1):
         for i in range(n-length+1):
             j= i+ length-1
@@ -30,6 +30,5 @@ def longestPalindrome(s):
                 maxlen = length
 
     return s[maxst:maxlen]
-
 
 print longestPalindrome("abac")
