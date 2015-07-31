@@ -18,9 +18,6 @@ def intersect(A,B):
             b += 1
     return result
 
-
-
-
 A = [1, 2, 3, 3, 4, 5, 6]
 B = [3 ,5]
 print intersect(A,B)
